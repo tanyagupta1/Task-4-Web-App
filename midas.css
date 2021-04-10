@@ -218,9 +218,10 @@ form.example button:hover {
   }
   .signout
   { 
-      height:5vh;
-      width:10 px;
-    }
+    box-sizing: content-box;
+    height: 5vh;
+    /* max-width: max-content; */
+  }
 
 
     svg#play {
