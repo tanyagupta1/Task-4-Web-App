@@ -1,8 +1,4 @@
-<!-- Sources used:
-1.https://freefrontend.com/css-play-pause-buttons/
-2.w3schools.com
-3.stackoverflow.com
-4.google images -->
+<!-- https://freefrontend.com/css-play-pause-buttons/ -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,11 +10,13 @@
     <meta name="google-signin-client_id" content="405215358397-ur9h2k29bbgs9ihd3shuq32cmvfu9e5e.apps.googleusercontent.com">
     <script src="tanya.js"></script> 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
+    
 </head>
 
-<body style="background-image: url(img5.png); background-size: cover;">
+<!-- <body style="background-image: url(img5.png); background-size: cover;"> -->
+   <body style="background-color: rgb(7, 7, 63);">
     <div class="topmidas ">
-         <div style="font-weight: bolder; font-size: 20px; vertical-align: middle;">
+        <div style="font-weight: bolder; font-size: 20px; vertical-align: middle;">
         <img  src ="midas.png" height="100vh" style="vertical-align:top">
         Midas IIITD
         </div>
@@ -27,10 +25,10 @@
         <nav class="headermenu">
            <ul>
               <li>
-                 <a href="http://midas.iiitd.edu.in/">Home<span class="arrow">&#9660;</span></a>
+                 <a href="#">Home<span class="arrow">&#9660;</span></a>
                  <div class="sub-menu-container">
                     <div class="left">
-                       <ul class="down1">
+                       <ul class="bathdropdown1">
                           <li><a href="#">Standard</a></li>
                           <li><a href="#">L-Shaped</a></li>
                           <li><a href="#">B-Shaped</a></li>
@@ -40,36 +38,36 @@
                  </div>
               </li>
               <li>
-                 <a href="http://midas.iiitd.edu.in/">Pages<span class="arrow">&#9660;</span></a>
+                 <a href="#">Pages<span class="arrow">&#9660;</span></a>
                  <div class="sub-menu-container">
-                    <ul class="hjk">
-                       <li><a href="http://midas.iiitd.edu.in/">Back to Wall</a></li>
-                       <li><a href="http://midas.iiitd.edu.in/">Close Coupled</a></li>
+                    <ul class="toiletdropdown1">
+                       <li><a href="#">Back to Wall</a></li>
+                       <li><a href="#">Close Coupled</a></li>
                     </ul>
                    
                  </div>
               </li>
               <li>
-                 <a href="http://midas.iiitd.edu.in/">Services<span class="arrow">&#9660;</span></a>
+                 <a href="#">Services<span class="arrow">&#9660;</span></a>
                  <div class="sub-menu-container">
                     <ul class="basindropdown1">
-                       <li><a href="http://midas.iiitd.edu.in/">Basin and Pedestal</a></li>
-                       <li><a href="http://midas.iiitd.edu.in/">Cloakroom</a></li>
+                       <li><a href="#">Basin and Pedestal</a></li>
+                       <li><a href="#">Cloakroom</a></li>
                     </ul>
                     
                  </div>
               </li>
               <li>
-                 <a href="http://midas.iiitd.edu.in/">Blogs<span class="arrow">&#9660;</span></a>
+                 <a href="#">Blogs<span class="arrow">&#9660;</span></a>
                  <div class="sub-menu-container">
                     <ul class="showerenclosuredropdown1">
                        
-                       <li><a href="http://midas.iiitd.edu.in/">Amelia Bifold Door</a></li>
+                       <li><a href="#">Amelia Bifold Door</a></li>
                     </ul>
                     
                  </div>
               </li>
-              <li><a href="http://midas.iiitd.edu.in/">Contacts</a></li>
+              <li><a href="#">Contacts</a></li>
               
               
            </ul>
@@ -96,7 +94,7 @@
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade" style="display: block;">
               <div class="numbertext">1 / 3</div>
-              <img src="img3.jpeg" style="width:50vw; height: 30vw;">
+              <img src="img1.jpg" style="width:50vw; height: 30vw;">
               <div class="text" style="width:50vw">Caption Text</div>
             </div>
           
@@ -108,7 +106,7 @@
           
             <div class="mySlides fade">
               <div class="numbertext">3 / 3</div>
-              <img src="img1.jpg" style="width:50vw; height: 30vw">
+              <img src="img3.jpg" style="width:50vw; height: 30vw">
               <div class="text" style="width:50vw">Caption Three</div>
             </div>
           
@@ -116,9 +114,9 @@
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <div style=" display: flex;flex-direction: column;justify-content:space-evenly;">
+            <div class="bubble" style=" display: flex;flex-direction: column;justify-content:space-evenly;">
                <div style="font-size: 4vw;">Web App Task</div>
-            <div style="display:flex; flex-direction: row; ">
+               <div style="display:flex; flex-direction: row; ">
             <div class="g-signin2" data-onsuccess="onSignIn"></div>
             <button class="signout" onclick="signOut()">SignOut</button>
             </div>
