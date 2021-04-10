@@ -36,13 +36,14 @@ form.example input[type=text] {
   font-size: 10px;
   border: 1px solid grey;
   float: left;
-  width: 20vw;
+  width: 10vw;
   background: #f1f1f1;
 }
 
 form.example button {
   float: left;
-  width: 20px;
+  width: 3vw;
+  height: 2.6vw;
   padding: 10px;
   background: #2196F3;
   color: white;
@@ -257,5 +258,3 @@ form.example button:hover {
         transform: rotate(-450deg);
          transform-origin: 50% 50%;
       } 
-
-  
